@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Countries</title>
+
+    <style>
+        h1{
+            text-align: center;
+            margin-bottom: 30px;
+            color: orangered;
+        }
+
+        #countries-container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .contries{
+            /* text-align: center; */
+            line-height: 0.5rem;
+            border: 3px solid tomato;
+            border-radius: 10px;
+            padding: 10px;
+
+
+        }
+        .contries img{
+            margin-top: 10px;
+        }
+        .contries p{
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+        <h1>All Countries</h1>
+
+        <section id="show-details-container">
+
+        </section>
+
+        <section>
+            <div id="countries-container">
+
+            </div>
+        </section>
+    </main>
+    
+    <script src="./js/countries.js"></script>
+</body>
+</html>

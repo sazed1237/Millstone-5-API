@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Users Details</title>
+
+    <style>
+        .user-details{
+            text-align: center;
+            margin-top: 50px;
+            line-height: 0.5rem;
+            background-color: cadetblue;
+            border-radius: 5%;
+        }
+        .imgclass img{
+            border-radius: 50%;
+            padding-top: 20px;
+        }
+        .user-details a{
+            line-height: 1.5rem;
+        }
+        .address{
+            line-height: 0.5rem;
+            padding-bottom: 20px;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <main>
+        <h1 style="text-align: center;">Random Users Details </h1>
+
+        <div class="user-details">
+
+            <div id="img-container"></div>
+
+            <h2 id="name"></h2>
+            <h3>Gander: <span id="gander"></span></h3>
+            <span>Email: <a id="email" href=""></a></span>
+            <br>
+            
+            <span>Phone: <a id="phone" href=""></a></span>
+
+            <div id="address-container"></div>
+
+        </div>
+
+    </main>
+
+    <script src="./js/randomuser.js"></script>
+</body>
+</html>
